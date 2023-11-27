@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css选择器,字体样式: font、font-style、font-weight、font-family，text-indent，text-align</title>
+    <style>
+        p {
+            color: green;
+            border: 1px black solid;
+            width: 200px;
+            height: 20px;
+            background-color: lightblue;
+            font: 16px 微软雅黑;
+        }
+
+        .one {
+            color: black;
+            font-family: 微软雅黑 宋体;
+            /*!*color: greenyellow;*!  层叠样式，以最下面的为准*/
+        }
+
+        #two {
+            color: brown;
+            font-size: 26px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .indent_text {
+            width: 400px;
+            height: 120px;
+            text-indent: 2em;
+            text-align: left;
+        }
+
+        .picture {
+            text-align: right;
+        }
+        .picture > p {
+            width: 400px;
+            height: 120px;
+            float: left;
+        }
+        .picture > img {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+<p>hello,CSS</p>
+<p class="indent_text">从7月份开始，有黑产人员冒充官方客服的人员联系购买机票的用户进行退票，经分析，很多case并非用户自己操作的退票。截止10月
+    30日，2023年共发生相关诈骗案件 3038 起，受损金额多达3化4204 万元，案件数量及金额高增长拐点均于23年8月份开始。</p>
+<div class="one">类选择器</div>
+<div class="one">类选择器2</div>
+<div id="two">id选择器</div>
+<hr>
+
+<div class="picture">
+    <p>从7月份开始，有黑产人员冒充官方客服的人员联系购买机票的用户进行退票，经分析，很多case并非用户自己操作的退票。截止10月
+    30日，2023年共发生相关诈骗案件 3038 起，受损金额多达3化4204 万元，案件数量及金额高增长拐点均于23年8月份开始。</p>
+    <img src="./images/1.jpg" alt="游戏美女" title="pretty girl">
+</div>
+<hr>
+
+
+
+</body>
+</html>
