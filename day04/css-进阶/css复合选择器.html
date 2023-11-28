@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css复合选择器，背景相关属性：background-color、background-image</title>
+    <style>
+        div {
+            width: 200px;
+            background-color: #ccc;
+        }
+
+        /*子选择器*/
+        div > p {
+            color: darkred;
+        }
+
+        /*后代选择器*/
+        div span {
+            color: #ffa500;
+        }
+
+        /*并集选择器*/
+        .car_desc,
+        .car_name,
+        .car_price {
+            text-align: center;
+        }
+
+        /*交集选择器*/
+        p.car_desc{
+            color: black;
+            background-image: url(./images/bg2.png);
+        }
+
+        /*hover伪类选择器*/
+        p.car_name:hover {
+            color: black;
+            background-color: #87ceeb;
+        }
+    </style>
+</head>
+<body>
+
+<p>p标签 </p>
+<div>
+    <p>div中的p标签 <span>一段文字</span></p>
+    <p class="car_name">九号平衡车</p>
+    <p class="car_desc">成年人的玩具</p>
+    <p class="car_price">1999元</p>
+</div>
+
+</body>
+</html>
