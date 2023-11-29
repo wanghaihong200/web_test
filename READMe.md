@@ -5,7 +5,7 @@
 <table border="1px" style="border-collapse:collapse; width:800px">
     <tr>
         <td>目录</td>
-        <td width="60px">子目录</td>
+        <td>子目录 &nbsp</td>
         <td>内容简介</td>
     </tr>
     <tr>
