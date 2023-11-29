@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器-伪元素</title>
+    <style>
+        .father {
+            width: 300px;
+            height: 300px;
+            background-color: skyblue;
+        }
+        .father::before {
+            content: "老鼠";
+            color: greenyellow;
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            display: block;
+        }
+
+        .father::after {
+            content:"大米";
+
+        }
+    </style>
+</head>
+<body>
+    <div class="father">爱</div>
+</body>
+</html>

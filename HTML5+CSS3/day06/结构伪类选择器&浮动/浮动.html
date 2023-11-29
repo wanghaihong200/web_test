@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        /* 浮动的标签  顶对齐 */
+        /* 浮动: 在一行排列, 宽高生效 -- 浮动后的标签具备行内块特点 */
+        div{
+            /*display: inline-block;*/
+            width: 100px;
+            height: 100px;
+        }
+
+        .one{
+            background-color: skyblue;
+            float: left;
+        }
+        .two{
+            background-color: #cccccc;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="one">one</div>
+<div class="two">two</div>
+<div>three</div>
+</body>
+</html>

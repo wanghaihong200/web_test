@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米模块布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            width: 1226px;
+            height: 614px;
+            /*overflow: hidden;*/
+        }
+
+        .purple {
+            background-color: #800080;
+            height: 614px;
+            width: 234px;
+            float: left;
+        }
+
+        .one > div, .two > div {
+            height: 300px;
+            width: 234px;
+            background-color: #87ceeb;
+            margin: 0 3px;
+            display: inline-block;
+
+        }
+
+        .one, .two {
+            width: 978px;
+            height: 300px;
+            float: right;
+        }
+
+        .two {
+            margin-top: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <div class="purple"></div>
+    <div class="one">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="two">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+
+</body>
+</html>

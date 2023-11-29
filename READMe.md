@@ -2,15 +2,15 @@
 项目涉及到的技术栈：html、css
 
 ### 二.项目明细
-<table border="1px" style="border-collapse:collapse; width:800px">
+<table border="1px" style="border-collapse:collapse; width:800px;">
     <tr>
         <td>目录</td>
         <td>子目录</td>
         <td>内容简介</td>
     </tr>
     <tr>
-        <td rowspan="4">HTML5+CSS3</td>
-        <td>day01&nbsp</td>
+        <td rowspan="10">HTML5+CSS3</td>
+        <td>day01</td>
         <td>基础标签:h1、hr、p、b、img、audio、video、a  </td>
     </tr>
     <tr>
@@ -25,5 +25,13 @@
         <td>day04</td>
         <td>css-进阶：css复合选择器,元素显示模式: display: block、inline、inline-block；<br/><br/>综合练习：普通导航、五彩导航 </td>
     </tr>
-
+    <tr>
+        <td>day05</td>
+        <td>css-进阶：盒子模型；<br/><br/>综合练习：新浪导航、网页新闻列表案例 </td>
+    </tr>
+    <tr>
+        <td>day06</td>
+        <td>css-进阶：浮动、清除浮动、结构伪类选择器、伪元素；<br/><br/>综合练习：新浪导航、网页新闻列表案例 </td>
+    </tr>
+    
 </table>
