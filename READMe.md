@@ -5,12 +5,12 @@
 <table border="1px" style="border-collapse:collapse; width:800px">
     <tr>
         <td>目录</td>
-        <td>子目录 &nbsp</td>
+        <td>子目录</td>
         <td>内容简介</td>
     </tr>
     <tr>
         <td rowspan="4">HTML5+CSS3</td>
-        <td>day01</td>
+        <td>day01&nbsp</td>
         <td>基础标签:h1、hr、p、b、img、audio、video、a  </td>
     </tr>
     <tr>
