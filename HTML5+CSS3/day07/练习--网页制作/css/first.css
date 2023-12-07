@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.header {
+    height: 42px;
+    width: 1200px;
+    margin: 30px auto;
+    /*border: 1px #00a4ff solid;*/
+}
+
+.header_img {
+    width: 230px;
+    text-align: center;
+    float: left;
+}
+
+.header_nav {
+    width: 270px;
+    float: left;
+    margin: 0 70px 0 40px;
+}
+
+.header_nav > li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    width: 90px;
+    font-size: 20px;
+}
+
+.search {
+    float: left;
+
+}
+
+.search > input {
+    width: 360px;
+    height: 42px;
+    border: 1px #00a4ff solid;
+    padding-left: 24px;
+    float: left;
+}
+
+.search > button {
+    width: 50px;
+    height: 42px;
+    float: left;
+    background-image: url("../images/btn.png");
+}
+
+.profile_photo {
+    float: right;
+    height: 42px;
+    width: 120px;
+}
+
+.profile_photo img {
+    float: left;
+    margin: 5px;
+}
+
+.profile_photo p {
+    float: left;
+    line-height: 42px;
+    margin-left: 10px;
+}
+
+.banner_wrapper {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner {
+    width: 1200px;
+    height: 420px;
+    background-image: url("../images/banner2.png");
+    margin: 0 auto;
+}
+
+.banner > ul {
+    height: 420px;
+    width: 190px;
+    float: left;
+    background-color: #13014b;
+}
+
+.banner > ul > li {
+    height: 46px;
+    line-height: 46px;
+    margin-left: 20px;
+}
+
+.banner a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.banner a:hover {
+    color: deepskyblue;
+}
+
+.banner > ul span {
+    float: right;
+    margin-right: 20px;
+}
+
+.banner_course {
+    width: 230px;
+    height: 300px;
+    float: right;
+    margin: 60px 0;
+    background-color: #fff;
+}
+
+.banner_course ul li:nth-child(1) {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: skyblue;
+}
+
+.banner_course .course_detail {
+    height: 60px;
+
+}
+
+.course_detail > span {
+    display: block;
+    height: 30px;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.course_detail span:nth-child(1) {
+    line-height: 30px;
+}
+
+.course_detail span:nth-child(2) {
+    border-bottom: 1px #ccc solid;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.banner_course div {
+    height: 45px;
+    width: 190px;
+    margin: 7px 20px;
+    border: 1px deepskyblue solid;
+    color: deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+}
+
+.goods_wrapper {
+    height: 60px;
+    width: 1200px;
+    background-color: #fff;
+    margin: 10px auto 60px auto;
+    padding-left: 60px;
+}
+
+.goods_wrapper ul {
+    height: 60px;
+    width: 900px;
+    float: left;
+}
+
+.goods_wrapper li {
+    float: left;
+    width: 100px;
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.goods_wrapper li:nth-last-child(n+2) {
+    border-right: 1px #cccccc solid;
+}
+
+.goods_wrapper li:nth-child(1) {
+    color: deepskyblue;
+}
+
+.goods_wrapper a {
+    float: right;
+    color: deepskyblue;
+    height: 60px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.goods {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.goods_title {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.goods_title p:nth-child(1) {
+    float: left;
+    font-size: 26px;
+    height: 40px;
+}
+
+.goods_title p:nth-last-child(1) {
+    float: right;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.goods_detail li {
+    float: left;
+    width: 233px;
+    margin-right: 5px;
+    height: 270px;
+}
+
+.goods_detail a {
+    color: black;
+}
+
+.goods_detail > ul img {
+    display: block;
+    width: 233px;
+    height: 155px;
+}
+
+.goods_detail .title , .goods_detail .high_level_div{
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.goods_detail .title {
+    display: block;
+    font-size: 16px;
+
+}
+
+.goods_detail .high_level_div {
+    font-size: 12px;
+}
+
+.goods_detail .high_level{
+    color: #ff8500;
+}
